@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Reservation</title>
+    <link rel="stylesheet" href="../CSS/railway.css">
+</head>
+
+<body>
+    <h1>Welcome To Indian Railway</h1>
+    <h2>Book Your Ticket</h2>
+    <form action="trains.html" method="get">
+        <fieldset>
+            <legend>Search Trains</legend>
+            <label for="from">From:</label>
+            <input type="text" class="to" name="from" required><br><br>
+
+            <label for="to">To:</label>
+            <input type="text" class="to" name="to" required><br><br>
+
+            <label for="date">Date of Journey:</label>
+            <input type="date" id="date" name="date" required><br><br>
+            <label for="class">Class</label>
+            <select>
+                <option>3AC</option>
+                <option>2AC</option>
+                <option>1AC</option>
+                <option>SL</option>
+            </select>
+            <br>
+            <br>
+            <button>Search Trains</button>
+        </fieldset>
+</body>
+
+</html>
